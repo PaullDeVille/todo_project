@@ -1,0 +1,10 @@
+[project]
+name = "todo-bot"
+version = "0.1.0"
+description = "Telegram-бот для ToDo"
+requires-python = ">=3.11"
+dependencies = [
+    "aiogram>=3,<4",
+    "aiogram-dialog",
+    "aiohttp",
+]
